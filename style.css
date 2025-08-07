@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.dark-theme {
+  background: #0f0f0f;
+  color: #eaeaea;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 180px;
+  background: #161616;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+.sidebar nav a {
+  display: block;
+  color: #888;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.sidebar nav a:hover {
+  color: #0fa3ff;
+}
+
+.hero {
+  margin-left: 180px;
+  height: 100vh;
+  background: url('images/hero-bg.jpg') center/cover fixed no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+#typing-text {
+  color: #0fa3ff;
+  border-right: 2px solid #0fa3ff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+main {
+  margin-left: 180px;
+  padding: 40px;
+}
+
+.section {
+  padding: 60px 20px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.section.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project, ul {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0fa3ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-left: 180px;
+  text-align: center;
+  padding: 30px 0;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border: 3px solid #0fa3ff;
+  animation: fadeIn 1.5s ease-out;
+}
+
+.hero-text {
+  max-width: 500px;
+  text-align: left;
+}
