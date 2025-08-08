@@ -6,16 +6,8 @@ Welcome to my personal portfolio website! This is a modern, dark-themed, animate
 
 ## 🌐 Live Preview
 
-> [Click here to view the live site](https://your-username.github.io/portfolio/)  
-> *(Replace with your actual GitHub Pages link once deployed)*
+> [Click here to view the live site]((https://sumishra2205.github.io/My_PortFolio/))  
 
----
-
-## 📸 Preview
-
-![Screenshot of Portfolio](images/My_Photo.jpg)
-
----
 
 ## 🛠️ Tech Stack
 
