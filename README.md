@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This is a modern, dark-themed, animate
 
 ## 🌐 Live Preview
 
-> [Click here to view the live site]((https://sumishra2205.github.io/My_PortFolio/))  
+> [Click here to view the live site](https://sumishra2205.github.io/My_PortFolio/)  
 
 
 ## 🛠️ Tech Stack
